@@ -1,0 +1,30 @@
+{
+    "name": "@ether/node-red-contrib-sqlbuilder",
+    "version": "1.0.0",
+    "description": "A \"batteries included\" SQL query builder for CockroachDB, MariaDB, MSSQL, MySQL, PostgreSQL, SQLite3, Oracle DB, and Amazon Redshift",
+    "keywords": [
+        "sql",
+        "node-red",
+        "query-builder"
+    ],
+    "main": "sqlbuilder.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mateus Macedo Dos Anjos",
+    "maintainers": [
+        {
+            "name": "mateusmacedo",
+            "email": "macedodosanjosmateus@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "node-red": {
+        "nodes": {
+            "sql": "sqlbuilder.js"
+        }
+    },
+    "dependencies": {
+        "knex": "~3.1.0"
+    }
+}
